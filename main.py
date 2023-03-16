@@ -18,6 +18,7 @@ button = Button(text="Click Me", command=button_clicked)
 button.pack()
 
 input = Entry(width=10)
+print(input.get())
 input.pack()
 
 
